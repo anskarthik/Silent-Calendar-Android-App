@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent">
+
+    <EditTextPreference
+        android:title="@string/pref_email_title"
+        android:key="@string/pref_email_key"
+        android:defaultValue="@string/pref_email_default"
+        android:inputType="textEmailAddress"
+        android:singleLine="true">
+    </EditTextPreference>
+
+    <Preference android:title="@string/test_pref_title"
+        android:key="@string/test_pref_key"
+        android:summary="@string/test_pref_summary" />
+
+    <Preference android:title="@string/info_button_text"
+        android:key="@string/info_button_key" />
+
+</PreferenceScreen>

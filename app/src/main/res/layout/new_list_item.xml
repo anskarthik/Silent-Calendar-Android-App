@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:id="@+id/list_item_switch"
+                android:layout_column="0" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="@string/Today"
+                android:id="@+id/list_item_event_title"
+                android:textSize="20sp">
+            </TextView>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="left|top"
+        android:text="@string/ViewDetails"
+        android:id="@+id/list_item_event_subtitle"
+        android:textSize="12sp"
+        android:textColor="#2fb7fb"
+        android:textStyle="bold"
+        android:clickable="true">
+    </TextView>
+
+</LinearLayout>

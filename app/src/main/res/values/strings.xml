@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Sunshine</string>
+    <string name="app_name">Silent Calendar</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="Today">Today</string>
+    <string name="ViewDetails">VIEW DETAILS</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_settings">Settings</string>
+    <string name="pref_email_key" translatable="false">emailId</string>
+    <string name="pref_email_default" translatable="false">\@gmail.com</string>
+    <string name="pref_email_title">Google Account</string>
+    <string name="test_run_button">Run</string>
+    <string name="test_pref_key">testBD</string>
+    <string name="test_pref_title">Run a Test</string>
+    <string name="test_pref_summary">Sets to Vibration Mode for 10 sec</string>
+    <string name="info_button_text">debug info</string>
+    <string name="info_button_key">info_key</string>
 
 </resources>

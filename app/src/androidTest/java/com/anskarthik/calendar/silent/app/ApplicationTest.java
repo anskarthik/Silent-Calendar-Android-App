@@ -1,4 +1,4 @@
-package com.example.android.sunshine.app;
+package com.anskarthik.calendar.silent.app;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
